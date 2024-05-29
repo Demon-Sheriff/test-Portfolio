@@ -1,10 +1,13 @@
 .App {
   text-align: center;
 }
+.tempButton{
+  display: none;
+}
 
 body, html {
   margin: 0;
-  padding: 0;
+  padding : 35px 60px 12px;
   min-height: 100vh;
 }
 
@@ -59,3 +62,5 @@ body, html {
   width: 300px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
+

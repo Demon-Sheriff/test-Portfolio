@@ -1,14 +1,16 @@
 import React from 'react';
+import './Header.css'
+
 
 const Header = (props) => {
   return (
     console.log(props),
     <header>
-      <nav>
-        <a href="#">Ajit Verma</a>
-        <button>
-          <span></span>
-          <span></span>
+      <nav className="nav-bar">
+        <a className="header-logo" href="#">Anant Shukla</a>
+        <button className="tempButton">
+          <span>A</span>
+          <span>B</span>
           <span></span>
         </button>
         <div>
@@ -26,7 +28,6 @@ const Header = (props) => {
 };
 
 export const A = 4;
-export let a = 10;
 export let b = 20;
 export let c = 30;
 export default Header;

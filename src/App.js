@@ -29,6 +29,9 @@ function App() {
   );
 }
 
+
+
+
 function MyApp(){
   return (
     <div className="App">
@@ -64,4 +67,4 @@ function Check() {
   );
 }
 
-export default Check;
+export default MyApp;

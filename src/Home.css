@@ -1,0 +1,43 @@
+#Home {
+    display: flex;
+}
+
+.Hello-box {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    border: 2px solid black;
+}
+
+.image img{
+    height: 400px;
+    width: 300px;
+    object-position: right;
+}
+
+.mainbox {
+    border: 2px solid black;
+    display: flex;
+    margin: 8px 16px;
+    width: 90vw;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size : 2.4rem;
+}
+
+.wave {
+    animation-name: wave-animation;
+    animation-duration: 2.5s;
+    animation-iteration-count : infinite;
+    display: inline-block;
+    transform-origin: 70% 70%;
+}
+
+.Hello-box p {
+    line-height: 2;
+    color: #868e96;
+}
