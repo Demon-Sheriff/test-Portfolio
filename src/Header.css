@@ -24,7 +24,7 @@ header nav div ul{
     display: flex;
     gap: 1.5rem;
     padding : 4px;
-    margin-right: 5rem;
+    margin-right: 3rem;
 
 }   
 
@@ -35,6 +35,21 @@ header nav div ul a {
     font-family: 'Open Sans', sans-serif;
     padding: 8px;
     font-weight: 800;
+
+}
+
+header nav div ul a:hover::after {
+    width:100%;
+}
+
+header nav div ul a::after {
+    text-decoration: underline;
+    content : "";
+    display: block;
+    background-color: black;
+    width: 0;
+    transition: 0.3s ease;
+    height : 2px;
 }
 
 .header-logo {
