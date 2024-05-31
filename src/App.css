@@ -1,6 +1,6 @@
-.App {
-  text-align: center;
+#root {
 }
+
 .tempButton{
   display: none;
 }
@@ -64,3 +64,49 @@ body{
 }
 
 
+.tileBox {
+  margin-left:25%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.generic-tile{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+  width: 40vh;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.image-list {
+  list-style: none;
+  display:flex;
+  align-items: center;
+  justify-content:center;
+}
+
+.Content {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.image {
+
+  width: 109px;
+  padding-bottom: 7%;
+  height: 100px;
+  margin-left: 2rem;
+}
+
+.image-list li {
+  display: flex;
+  height: fit-content;
+  padding:0;
+
+}

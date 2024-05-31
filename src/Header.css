@@ -38,13 +38,17 @@ header nav div ul a {
 
 }
 
+header nav div ul a:hover {
+    background-color: rgba(223, 221, 221, 0.5);
+    color: black;
+}
+
 header nav div ul a:hover::after {
     width:100%;
 }
 
 header nav div ul a::after {
     text-decoration: underline;
-    content : "";
     display: block;
     background-color: black;
     width: 0;

@@ -1,9 +1,12 @@
 import React from 'react';
+import './Work.css'
+
+
 
 const Work = () => {
   return (
     <section id="Work">
-      <h1>What I Do ?</h1>
+      <h1 id="what-I-do">What I Do ?</h1>
       <div>
         <div>
           <img src={`${process.env.PUBLIC_URL}/Image/Data_Analysis.svg`} alt="Data Analysis" />

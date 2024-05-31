@@ -113,11 +113,11 @@ const Section3 = () => {
 
 const Footer = () => {
     return (
-        <footer>Made with ❤️ by Ajit Verma</footer>
+        <footer>Made with ❤️ Anant Shukla</footer>
     );
 };
 
-const Education = () => {
+const Education = () => { 
     return (
         <div className="App">
             <Header />
