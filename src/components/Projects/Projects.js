@@ -1,6 +1,9 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
+import tk from './Tkinter.png';
+import nlp from './NLP.png';
+import rsg from './RSG.png';
 
 function Projects() {
   return (
@@ -13,32 +16,29 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={5} className="project-card">
             <ProjectCard
-              imgPath={""}
-              isBlog={false}
+              imgPath={tk}
               title=""
-              description=""
-              ghLink=""
+              description="A python-written contest bot for reminders about contests and fetching details and statistics using commands, NLP and diagflow to be integrated soon."
+              ghLink="https://github.com/Demon-Sheriff/ContestBot"
             />
           </Col>
 
           <Col md={5} className="project-card">
             <ProjectCard
-              imgPath={""}
-              isBlog={false}
+              imgPath={nlp}
               title=""
-              description=""
-              ghLink=""
+              description="Basic NLP pipelines built by me in jupyter notebook"
+              ghLink="https://github.com/Demon-Sheriff/NLPlearnings"
             />
           </Col>
 
 
           <Col md={5} className="project-card">
             <ProjectCard
-              imgPath={""}
-              isBlog={false}
+              imgPath={rsg}
               title=""
-              description=""
-              ghLink=""
+              description="A retro model snake game"
+              ghLink="https://github.com/Demon-Sheriff/RetroSnakeGame"
               demoLink=""
             />
           </Col>

@@ -384,9 +384,9 @@ html {
     color: #700c86 !important;
   }
   
-  /* --------- */
+
   /* Footer */
-  /* --------- */
+
   .footer {
     background-image: linear-gradient(
         to bottom left,
@@ -529,9 +529,7 @@ html {
     padding-top: 10px !important;
   }
   
-  /* --------- */
   /* About */
-  /* --------- */
   
   .about-section {
     position: relative !important;
@@ -589,9 +587,9 @@ html {
       padding-top: 0 !important;
     }
   }
-  /* --------- */
+
   /* Resume */
-  /* --------- */
+
   
   .resume-section {
     position: relative !important;
